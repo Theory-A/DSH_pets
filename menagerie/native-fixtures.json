@@ -1,0 +1,418 @@
+[
+  {
+    "version": 3,
+    "activeChats": 0,
+    "waitingChats": 0,
+    "activeSubagents": 0,
+    "activeJobs": 0,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 0,
+    "waitingChats": 0,
+    "activeSubagents": 0,
+    "activeJobs": 0,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 1,
+    "waitingChats": 0,
+    "activeSubagents": 2,
+    "activeJobs": 1,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "a0",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "a1",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j0",
+        "role": "job",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 4,
+    "waitingChats": 0,
+    "activeSubagents": 2,
+    "activeJobs": 2,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s3",
+        "role": "session",
+        "parent": null,
+        "style": 3,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "a0",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "a1",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j0",
+        "role": "job",
+        "parent": "s3",
+        "style": 3,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j1",
+        "role": "job",
+        "parent": null,
+        "style": 1,
+        "mode": "thinking",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 7,
+    "waitingChats": 0,
+    "activeSubagents": 2,
+    "activeJobs": 2,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s3",
+        "role": "session",
+        "parent": null,
+        "style": 3,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s4",
+        "role": "session",
+        "parent": null,
+        "style": 4,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s5",
+        "role": "session",
+        "parent": null,
+        "style": 5,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s6",
+        "role": "session",
+        "parent": null,
+        "style": 6,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "a0",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "a1",
+        "role": "subagent",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j0",
+        "role": "job",
+        "parent": "s6",
+        "style": 6,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j1",
+        "role": "job",
+        "parent": null,
+        "style": 1,
+        "mode": "thinking",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 1,
+    "waitingChats": 0,
+    "activeSubagents": 0,
+    "activeJobs": 1,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "j0",
+        "role": "job",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 1,
+    "waitingChats": 0,
+    "activeSubagents": 0,
+    "activeJobs": 2,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 1
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "j0",
+        "role": "job",
+        "parent": "s0",
+        "style": 0,
+        "mode": "thinking",
+        "epoch": 0
+      },
+      {
+        "id": "j1",
+        "role": "job",
+        "parent": null,
+        "style": 1,
+        "mode": "thinking",
+        "epoch": 0
+      }
+    ]
+  },
+  {
+    "version": 3,
+    "activeChats": 0,
+    "waitingChats": 0,
+    "activeSubagents": 0,
+    "activeJobs": 0,
+    "pets": [
+      {
+        "id": "s0",
+        "role": "session",
+        "parent": null,
+        "style": 0,
+        "mode": "idle",
+        "epoch": 2
+      },
+      {
+        "id": "s1",
+        "role": "session",
+        "parent": null,
+        "style": 1,
+        "mode": "idle",
+        "epoch": 0
+      },
+      {
+        "id": "s2",
+        "role": "session",
+        "parent": null,
+        "style": 2,
+        "mode": "idle",
+        "epoch": 0
+      }
+    ]
+  }
+]

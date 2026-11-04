@@ -1,0 +1,30 @@
+{
+  "name": "@dlwj/dsh-pets",
+  "version": "1.0.0",
+  "description": "Pixel-art cats and a Sheltie perched on DSH Desktop, with mini pets for subagents and background jobs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "dlwj",
+  "os": ["darwin"],
+  "cpu": ["arm64"],
+  "engines": { "node": ">=22" },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "desktop-pet", "macos", "pixel-art"],
+  "exports": {
+    ".": "./menagerie/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "menagerie/*.js", "cordis.patch.yml", "locale/*.json", "icon.svg",
+    "app/DSH Window Cat.app/**/*", "native/main.swift", "native/Info.plist",
+    "build-native.sh", "art/*-colony.png", "art/*-mini.png", "docs/pets-demo.gif"
+  ],
+  "scripts": {
+    "test": "node --test menagerie/*.test.mjs",
+    "test:native": "\"app/DSH Window Cat.app/Contents/MacOS/DSHWindowCat\" --self-test",
+    "build:native": "bash build-native.sh",
+    "pack:release": "node scripts/pack-release.mjs"
+  },
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

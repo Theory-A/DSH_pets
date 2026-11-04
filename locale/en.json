@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Pets",
+    "description": "Pixel-art pets perch above the native Harness window. Active chats cycle grey/white Siberian, tuxedo and Sheltie styles, with hue-shifted repeats beyond three. Every running local subagent has a mini with an ellipsis bubble; managed background jobs have star bubbles. Waiting chats show a question, and idle residents wander or nap. Accessibility required; no screenshots or message access."
+  }
+}

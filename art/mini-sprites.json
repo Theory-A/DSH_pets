@@ -1,0 +1,137 @@
+[
+  {
+    "breed": "silver-siberian",
+    "source": "silver-siberian-colony.png",
+    "output": "silver-siberian-mini.png",
+    "size": [
+      96,
+      40
+    ],
+    "cell": [
+      48,
+      40
+    ],
+    "baselineY": 39,
+    "frames": [
+      {
+        "sourceIndex": 6,
+        "index": 0,
+        "bodyPixels": 1745,
+        "removedBubblePixels": 296,
+        "bbox": [
+          6,
+          16,
+          36,
+          40
+        ],
+        "bodyTopSource": 32,
+        "postResizeOffsetY": 0
+      },
+      {
+        "sourceIndex": 7,
+        "index": 1,
+        "bodyPixels": 1726,
+        "removedBubblePixels": 301,
+        "bbox": [
+          7,
+          16,
+          35,
+          40
+        ],
+        "bodyTopSource": 32,
+        "postResizeOffsetY": 0
+      }
+    ],
+    "bytes": 3005
+  },
+  {
+    "breed": "tuxedo",
+    "source": "tuxedo-colony.png",
+    "output": "tuxedo-mini.png",
+    "size": [
+      96,
+      40
+    ],
+    "cell": [
+      48,
+      40
+    ],
+    "baselineY": 39,
+    "frames": [
+      {
+        "sourceIndex": 6,
+        "index": 0,
+        "bodyPixels": 1829,
+        "removedBubblePixels": 258,
+        "bbox": [
+          9,
+          14,
+          37,
+          40
+        ],
+        "bodyTopSource": 27,
+        "postResizeOffsetY": 0
+      },
+      {
+        "sourceIndex": 7,
+        "index": 1,
+        "bodyPixels": 1841,
+        "removedBubblePixels": 259,
+        "bbox": [
+          9,
+          14,
+          38,
+          40
+        ],
+        "bodyTopSource": 27,
+        "postResizeOffsetY": 0
+      }
+    ],
+    "bytes": 3018
+  },
+  {
+    "breed": "sheltie",
+    "source": "sheltie-colony.png",
+    "output": "sheltie-mini.png",
+    "size": [
+      96,
+      40
+    ],
+    "cell": [
+      48,
+      40
+    ],
+    "baselineY": 39,
+    "frames": [
+      {
+        "sourceIndex": 6,
+        "index": 0,
+        "bodyPixels": 1573,
+        "removedBubblePixels": 331,
+        "bbox": [
+          8,
+          16,
+          33,
+          40
+        ],
+        "bodyTopSource": 33,
+        "postResizeOffsetY": 0
+      },
+      {
+        "sourceIndex": 7,
+        "index": 1,
+        "bodyPixels": 1600,
+        "removedBubblePixels": 332,
+        "bbox": [
+          8,
+          17,
+          34,
+          40
+        ],
+        "bodyTopSource": 32,
+        "postResizeOffsetY": 1
+      }
+    ],
+    "bytes": 2747
+  }
+]

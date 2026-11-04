@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-pets
+      name: '@dlwj/dsh-pets'
+      config: {}
